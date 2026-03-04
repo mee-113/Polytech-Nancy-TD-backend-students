@@ -26,7 +26,7 @@ paths:
                             $ref: '#/components/schemas/Task'
             responses:
                 '201':
-                    description: Tâche créée
+                    description: Tâche créée avec succès
                     headers:
                         Location:
                             description: URL de la ressource créée
@@ -49,11 +49,12 @@ paths:
                     minimum: 1
         get:
             tags: [ tasks ]
-            summary: Récupérer une tâche par son identifiant
+            summary: Récupérer une tâche
+            description: Récupérer une tâche par son identifiant
             operationId: getTaskById
             responses:
                 '200':
-                    description: Tâche trouvée
+                    description: Tâche trouvée avec succès
                     content:
                         application/json:
                             schema:

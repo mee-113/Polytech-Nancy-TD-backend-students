@@ -15,6 +15,9 @@ import java.util.regex.Pattern;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static java.util.Objects.nonNull;
 
+/**
+ * Main class of the application. Managing routing and HTTP layer.
+ */
 public class Application {
 
     private static final Logger log = LoggerFactory.getLogger(Application.class);
