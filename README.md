@@ -1,4 +1,4 @@
-ADAM BENJABBAR
+
 # TD — API REST minimal (TODO list)
 
 ## 🎯 Objectifs du TD
